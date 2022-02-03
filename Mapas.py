@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import Ellipse
-
+# This program calculates the tangential and sagittal curvature maps. 
 
 plt.rc('text', usetex=True)
-diop = 333  # Para pasar a metros y a dioptrias (n-1)*C
-N = 60  # Esto es como la pupila
+diop = 333  # curvature to diopter  (n-1)*C
+N = 60  # pupil
 Div = 150
 dr = N / Div
 N2 = 2 * np.pi
